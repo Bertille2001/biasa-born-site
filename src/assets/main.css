@@ -1,0 +1,76 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green-dark: #1a7a1a;
+  --green: #2da82d;
+  --green-light: #EAF3DE;
+  --navy: #0B3C7A;
+  --yellow: #f5d020;
+  --white: #ffffff;
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a1a;
+  --text-sec: #6b7280;
+  --border: #e5e7eb;
+  --radius: 12px;
+  --wa: #25D366;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: inherit; }
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  width: 100%;
+  background: white;
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.2s;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: var(--green-dark);
+  box-shadow: 0 0 0 3px rgba(26,122,26,0.1);
+}
+
+.btn-green {
+  background: var(--green-dark);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  padding: 13px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s;
+}
+.btn-green:hover { background: #155e15; }
+
+.btn-wa {
+  background: var(--wa);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  padding: 13px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s;
+}
+.btn-wa:hover { background: #20ba58; }
