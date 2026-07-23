@@ -73,7 +73,7 @@
           </div>
         </div>
         <div class="fondation-logo">
-          <img src="/images/logo-biasa-born.png" alt="Biasa Born" style="height:160px;object-fit:contain;" />
+          <img src="/images/logo-fondation.png" alt="Fondation Dr Robert Fiadjoe" style="height:140px;object-fit:contain;" />
         </div>
       </div>
     </section>
@@ -177,7 +177,7 @@ h2 { font-size: 32px; font-weight: 800; color: #1a1a1a; margin-bottom: 12px; }
 .steps { display: flex; gap: 0; margin-top: 44px; }
 .step { flex: 1; padding: 32px 28px; border-left: 1px solid #e5e7eb; }
 .step:first-child { border-left: none; padding-left: 0; }
-.step-num { font-size: 36px; font-weight: 800; color: #1a7a1a; opacity: 0.25; margin-bottom: 16px; font-family: 'Georgia', serif; }
+.step-num { font-size: 36px; font-weight: 800; color: #e5e7eb; margin-bottom: 16px; font-family: 'Georgia', serif; }
 .step h3 { font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 8px; }
 .step p { font-size: 13px; color: #6b7280; line-height: 1.7; }
 

@@ -8,6 +8,10 @@
           </div>
           <div class="logo-sep"></div>
           <div class="logo-box">
+            <img src="/images/logo-fondation.png" alt="Fondation Dr Robert Fiadjoe" class="footer-logo-fondation" />
+          </div>
+          <div class="logo-sep"></div>
+          <div class="logo-box">
             <img src="/images/logo-clinique.png" alt="Clinique Biasa" class="footer-logo-clinique" />
           </div>
         </div>
@@ -52,6 +56,7 @@ import { RouterLink } from 'vue-router'
 .footer-logos { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
 .logo-box { background: white; border-radius: 6px; padding: 10px 14px; display: flex; align-items: center; justify-content: center; }
 .footer-logo-born { height: 48px; object-fit: contain; }
+.footer-logo-fondation { height: 44px; object-fit: contain; }
 .footer-logo-clinique { height: 32px; object-fit: contain; }
 .logo-sep { width: 1px; height: 36px; background: rgba(255,255,255,0.15); }
 .footer-desc { font-size: 13px; color: rgba(255,255,255,0.5); margin-bottom: 16px; line-height: 1.6; }

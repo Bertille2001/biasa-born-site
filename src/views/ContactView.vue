@@ -13,6 +13,8 @@
           <div class="logos-card">
             <img src="/images/logo-biasa-born.png" alt="Biasa Born" style="height:56px;object-fit:contain" />
             <div class="logo-sep"></div>
+            <img src="/images/logo-fondation.png" alt="Fondation Dr Robert Fiadjoe" style="height:52px;object-fit:contain" />
+            <div class="logo-sep"></div>
             <img src="/images/logo-clinique.png" alt="Clinique Biasa" style="height:40px;object-fit:contain" />
           </div>
 
