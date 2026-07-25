@@ -122,7 +122,7 @@ const cards = [
 ]
 
 const steps = [
-  { num: '01', title: 'S\'inscrire en tant que Biasa Born', desc: 'Remplissez le formulaire d\'inscription. Gratuit, en moins de 2 minutes.' },
+  { num: '01', title: 'Vous inscrire en tant que Biasa Born', desc: 'Remplissez le formulaire d\'inscription. Gratuit, en moins de 2 minutes.' },
   { num: '02', title: 'Découvrir les membres de la communauté', desc: 'Accédez à l\'annuaire des membres Biasa Born à travers le Togo et la diaspora mondiale.' },
   { num: '03', title: 'Publier ou consulter des offres d\'entraide', desc: 'Emploi, logement, formation, santé — trouvez ou proposez de l\'aide.' },
   { num: '04', title: 'Contacter la Fondation', desc: 'Contactez la Fondation Dr Robert Fiadjoe directement via WhatsApp ou le formulaire de contact.' },
