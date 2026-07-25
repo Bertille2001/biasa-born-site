@@ -36,7 +36,7 @@
     </div>
 
     <div class="footer-bottom">
-      <span>© 2024 Fondation Dr Robert Fiadjoe · Tous droits réservés · Lomé, Togo</span>
+      <span>© 2026 Fondation Dr Robert Fiadjoe · Tous droits réservés · Lomé, Togo</span>
     </div>
   </footer>
 
@@ -54,7 +54,14 @@ import { RouterLink } from 'vue-router'
 .footer-inner { max-width: 1100px; margin: 0 auto; display: flex; gap: 60px; flex-wrap: wrap; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.1); }
 .footer-brand { flex: 2; min-width: 260px; }
 .footer-logos { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
-.logo-box { background: white; border-radius: 6px; padding: 10px 14px; display: flex; align-items: center; justify-content: center; }
+.logo-box { 
+  background: rgba(255,255,255,0.15); 
+  border-radius: 10px; 
+  padding: 12px 16px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
 .footer-logo-born { height: 48px; object-fit: contain; }
 .footer-logo-fondation { height: 44px; object-fit: contain; }
 .footer-logo-clinique { height: 32px; object-fit: contain; }

@@ -49,7 +49,7 @@
     <section class="section bg-white">
       <div class="inner">
         <div class="section-tag">Comment ça marche</div>
-        <h2>3 étapes simples</h2>
+        <h2>Ce que vous pouvez faire</h2>
         <div class="steps">
           <div class="step" v-for="s in steps" :key="s.num">
             <div class="step-num">{{ s.num }}</div>
@@ -122,9 +122,10 @@ const cards = [
 ]
 
 const steps = [
-  { num: '01', title: 'Inscription', desc: 'Remplissez le formulaire avec vos informations. Gratuit, en moins de 2 minutes.' },
-  { num: '02', title: 'Intégration', desc: 'Accédez à l\'annuaire des membres, aux offres d\'entraide et aux événements.' },
-  { num: '03', title: 'Entraide', desc: 'Proposez votre aide ou trouvez du soutien. Ensemble, on va plus loin.' },
+  { num: '01', title: 'S\'inscrire en tant que Biasa Born', desc: 'Remplissez le formulaire d\'inscription. Gratuit, en moins de 2 minutes.' },
+  { num: '02', title: 'Découvrir les membres de la communauté', desc: 'Accédez à l\'annuaire des membres Biasa Born à travers le Togo et la diaspora mondiale.' },
+  { num: '03', title: 'Publier ou consulter des offres d\'entraide', desc: 'Emploi, logement, formation, santé — trouvez ou proposez de l\'aide.' },
+  { num: '04', title: 'Contacter la Fondation', desc: 'Contactez la Fondation Dr Robert Fiadjoe directement via WhatsApp ou le formulaire de contact.' },
 ]
 
 const avantages = [
